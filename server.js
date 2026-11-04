@@ -16,9 +16,9 @@ const app = express();
 app.use(express.json());
 
 // Routes assignment
-app.use('/api/products', productRoutes);
+app.use('/products', productRoutes);
 
-// Error Handling Lifecycle Engine (Always place this after defined routers)
+// Error Handling Lifecycle Engine
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;

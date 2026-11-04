@@ -104,12 +104,6 @@ A modular, robust Node.js and Express RESTful API setup engineered via ECMAScrip
 }
 ```
 
-#### Adjust Stock Quantity (`PATCH /products/:id/stock`)
-**Body Input Schema (`application/json`)**:
-```json
-{
-  "adjustment": -2
-}
-```
+
 
 
